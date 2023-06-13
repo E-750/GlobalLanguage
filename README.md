@@ -1,11 +1,7 @@
 
 # GlobalLanguage
 
-A plugin for Rust that stops people from typing Russian in Global Chat
-
-this plugin was made for a English server who didn't wanted to have people speaking Russian
-
-in the global chat and only allowing other languages in [Team] Chat.
+A plugin for Rust that helps server owner preventing players from typing specificed language in Global Chat only allowing other languages in [Team] Chat.
 ## Installation
 
 ```bash
