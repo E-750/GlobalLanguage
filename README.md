@@ -1,5 +1,4 @@
-
-# GlobalLanguage
+![Logo](https://i.ibb.co/YQTqPT2/repository-open-graph-template.png)
 
 A plugin for Rust that helps server owner preventing players from typing specificed language in Global Chat only allowing other languages in [Team] Chat.
 ## Installation
@@ -35,4 +34,3 @@ For support, contact me on discord **blazerwolfy**
 ## Authors
 
 - [[EuM] BlazerWolfy](https://steamcommunity.com/id/BlazerWolfy/)
-
