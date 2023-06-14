@@ -34,3 +34,24 @@ For support, contact me on discord **blazerwolfy**
 ## Authors
 
 - [[EuM] BlazerWolfy](https://steamcommunity.com/id/BlazerWolfy/)
+
+
+## Configuration File Usages
+```json
+{
+  // What language should be forbidden in the Global Chat? (Currently only supports one language at a time)
+  "ForbiddenLanguage"
+
+  // What message the player who type the forbidden language in global chat should see before theirs message was cancelled
+  "ForbiddenLanguageMessage"
+
+  // What message should the console access see when the player who type the forbidden language in Global chat should see
+  "ForbiddenLanguageConsoleMessage"
+
+  // Enable or Disable whatever console access should see the player who tried to talk the forbbiden language in global chat
+  "DebugLang"
+
+  // Enable or Disable automatic update checker
+  "UpdateChecker"
+}
+```
