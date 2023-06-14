@@ -9,6 +9,8 @@ A plugin for Rust that helps server owner preventing players from typing specifi
   unpack the file
   Drag and drop the GlobalLanguage.cs
   inside your oxide/plugins folder
+  setup the config file inside oxide/config
+  based on what you prefer
 ```
     
 ## Screenshots
