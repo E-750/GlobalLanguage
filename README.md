@@ -19,13 +19,11 @@ A plugin for Rust that helps server owner preventing players from typing specifi
 
 ## Known Bugs
 
-- Currently not working with BetterChat
+- None
 
-## Roadmap
+## Changelog
 
-- Add more options for server owners
-
-- Add configuration file for custom messages
+- Fixed the BetterChat issue.
 
 ## Used By
 
@@ -45,19 +43,13 @@ For support, contact me on discord **blazerwolfy**
 ## Configuration File Usages
 ```json
 {
-  // What language should be forbidden in the Global Chat? (Currently only supports one language at a time)
-  "ForbiddenLanguage"
-
-  // What message the player who type the forbidden language in global chat should see before theirs message was cancelled
-  "ForbiddenLanguageMessage"
-
-  // What message should the console access see when the player who type the forbidden language in Global chat should see
-  "ForbiddenLanguageConsoleMessage"
-
-  // Enable or Disable whatever console access should see the player who tried to talk the forbbiden language in global chat
-  "DebugLang"
-
-  // Enable or Disable automatic update checker
-  "UpdateChecker"
+  "CancelRussian": true, // Don't change
+  "CancelGerman": false, // Don't change
+  "CancelDanish": false, // Don't change
+  "ActionToPerform": "None", // None = Nothing, CancelMessage = Cancel the message, Kill = Kills the player after WarningBeforePerforming is 0, Kick = Kicks the player after WarningBeforePerforming is 0
+  "WarningBeforePerforming": 3, // The amount of warnings a player gets before they're affected by Kill, Kick.
+  "ForbiddenLanguageMessage": "<color=red>Please refrain from typing Forbidden Language in global chat use</color> team chat <color=red>or</color> /pm <name> <message>", // The message the player sees in the chat when theirs messages are cancel.
+  "UpdateChecker": true, // Automatically checks for updates. And let's the console access know.
+  "DebugMode": false // Doesn't do much as of right now.
 }
 ```
