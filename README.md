@@ -16,12 +16,16 @@ A plugin for Rust that helps server owner preventing players from typing specifi
 ## Screenshots
 
 ![GlobalLanguageExample](https://i.ibb.co/HCYCDv3/Global-Language-Example.png)
+
+## Known Bugs
+
+- Currently not working with BetterChat
+
 ## Roadmap
 
 - Add more options for server owners
 
 - Add configuration file for custom messages
-
 
 ## Used By
 
