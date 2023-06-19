@@ -48,7 +48,7 @@ For support, contact me on discord **blazerwolfy**
   "CancelDanish": false, // Don't change
   "ActionToPerform": "None", // None = Nothing, CancelMessage = Cancel the message, Kill = Kills the player after WarningBeforePerforming is 0, Kick = Kicks the player after WarningBeforePerforming is 0
   "WarningBeforePerforming": 3, // The amount of warnings a player gets before they're affected by Kill, Kick.
-  "ForbiddenLanguageMessage": "<color=red>Please refrain from typing Forbidden Language in global chat use</color> team chat <color=red>or</color> /pm <name> <message>", // The message the player sees in the chat when theirs messages are cancel.
+  "ForbiddenLanguageMessage": "", // The message the player sees in the chat when theirs messages are cancel.
   "UpdateChecker": true, // Automatically checks for updates. And let's the console access know.
   "DebugMode": false // Doesn't do much as of right now.
 }
