@@ -23,7 +23,9 @@ A plugin for Rust that helps server owner preventing players from typing specifi
 
 ## Changelog
 
-- Fixed the BetterChat issue.
+- Fixed BetterChat capabilities.
+- Fixed some Format console color issues.
+- Added backward capabilities for servers who isn't using BetterChat.
 
 ## Used By
 
