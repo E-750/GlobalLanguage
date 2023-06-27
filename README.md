@@ -45,10 +45,16 @@ For support, contact me on discord **blazerwolfy**
 ## Configuration File Usages
 ```json
 {
-  "ActionToPerform": "None", // None = Nothing, CancelMessage = Cancel the message, Kill = Kills the player after WarningBeforePerforming is 0, Kick = Kicks the player after WarningBeforePerforming is 0
-  "WarningBeforePerforming": 3, // The amount of warnings a player gets before they're affected by Kill, Kick.
-  "ForbiddenLanguageMessage": "", // The message the player sees in the chat when theirs messages are cancel.
-  "UpdateChecker": true, // Automatically checks for updates. And let's the console access know.
-  "DebugMode": false // Doesn't do much as of right now.
+  "ActionToPerform": "Mute", // Action to perform upon typing in the forbidden language (Available action: None, Kick, Ban, Mute)
+  "KickReason": "You were kicked", // The reason to display to the player on Kick Action
+  "BanReason": "You were banned", // The reason to display to the player on Ban Action
+  "MuteReason": "You were muted", // The reason to display to the player on Mute Action
+  "ForbiddenLanguageMessage": "", // The text to display to the player on typing the forbidden language in the global chat
+  "MaxWarningsToKick": 5, // The amount of warnings a player gets before they're affected by **Kick**.
+  "MaxWarningsToBan": 10, // The amount of warnings a player gets before they're affected by **Ban**.
+  "MaxWarningsToMute": 3, // The amount of warnings a player gets before they're affected by **Mute**.
+  "ShouldPlayerSeeWarnings": true, // This only works if the 'ActionToPerform' is Kick, Ban, Mute
+  "UpdateChecker": true,
+  "DebugMode": false // Tells you some useful debugging information
 }
 ```
