@@ -39,7 +39,7 @@ For support, contact me on discord **dr0xes**
 
 ## Authors
 
-- [[EuM] BlazerWolfy](https://steamcommunity.com/id/BlazerWolfy/)
+- [🐺Legoshi🐺](https://steamcommunity.com/id/TheLegoshi/)
 
 
 ## Configuration File Usages
