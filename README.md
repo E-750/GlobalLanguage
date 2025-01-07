@@ -34,7 +34,7 @@ This plugin is used by the following servers:
 - [EUM] EuM | PvE x1000 |KIT|TOWN|HOME|REMOVE|NO VIP
 ## Support
 
-For support, contact me on discord **blazerwolfy**
+For support, contact me on discord **dr0xes**
 
 
 ## Authors
